@@ -50,7 +50,7 @@ const App = () => {
           
 
           {currentPage === "Home" && (
-            <div className='inline-block'>
+            <div className=''>
               <div className="window-body max-w-full">
 
                 <div className='fixed align bg-white'>
@@ -91,7 +91,7 @@ const App = () => {
                       
                     </ul>
                   </div>
-                <div className="flex top-10 mb-12 w-full relative ">
+                <div className=" relative top-10 mb-12 ">
                   <div className="window h-auto">
                     <div className="window">
                       <div className="title-bar">
@@ -103,9 +103,9 @@ const App = () => {
                     </div>
                     <div className="flex justify-center pb-5 pt-5">
 
-                      <div className="window w-4/6">
+                      <div className="window w-full">
                         <div className="items-center text-center">
-                          <div className="window">
+                          <div className="window items-center">
                             <div className="title-bar">
                               <div className="title-bar-text text-sm"><b >About Me</b></div>
                             </div>
@@ -131,7 +131,7 @@ const App = () => {
                               </div>
                               <div className="window">
                                 <div className=' '>
-                                  <div className="   inline  text-sm">
+                                  <div className=" text-sm">
 
                                     <div className='field-row w-full mt-16 mb-6'>
                                       <p className='w-24 ml-3'  id='English'>English</p>
@@ -202,11 +202,11 @@ const App = () => {
                               </div>
                               
                             </div>
-                            <div className='justify-center inline-block' id="dresume">
-                              <button  className='w-64 h-12 ml-6' >
+                            <div className='justify-around ml-2' id="dresume">
+                              <button  className='w-28 h-12 ' >
                                 <a href={resume1}  download>Download Resume </a>
                               </button>
-                              <div className='window w-64 mt-10 ml-6'>
+                              <div className='window w-28 mt-6'>
                                 <img src={b}></img>
                               </div>
                             </div>
@@ -220,16 +220,16 @@ const App = () => {
                 </div>
 
 
-                <div id='info' className='flex right-0 mt-1 w-full relative'>
-                        <div className="title-bar justify-around text-sm w-full">
-                          <div className='w-full justify-center mt-6 mb-6 flex'>
+                <div id='info' className='flex mt-1 w-full relative'>
+                        <div className="title-bar text-sm w-full">
+                          <div className='w-full justify-around mt-6 mb-6 inline-flex'>
 
                             <div className='title-bar-text text-center'>
                                   Ebrahim Khosravani
-                                  <br></br>
+                                  
                             </div>
 
-                            <div className="title-bar-text  text-center ">
+                            <div className="title-bar-text  text-center -indent-4">
                                   Email<br></br> 
                               <address >
                                     <a href='mailto:ebrahimkhosravani3@gmail.com'>
@@ -238,10 +238,6 @@ const App = () => {
                               </address>
                             </div>
 
-                            <div className='title-bar-text justify-center'>
-                              <p>location <br/>
-                              Tehran, Iran </p>
-                            </div>
 
                           </div>
                         </div>
@@ -253,25 +249,25 @@ const App = () => {
 
 
           {currentPage === "Contact" && (
-          <div className='inline-block '>
-            <div className="window-body">
+          <div className=' '>
+            <div className="window-body max-w-full">
 
-            <div className='fixed align bg-white'>
-                <menu role="tablist">
-                  <li role="tab" className="cursor-pointer text-xl" aria-selected="false">
-                    <a onClick={navigateToHome}>Home</a>
-                  </li>
+                <div className='fixed align bg-white'>
+                    <menu role="tablist">
+                      <li role="tab" className="cursor-pointer text-xl" aria-selected="false">
+                        <a onClick={navigateToHome}>Home</a>
+                      </li>
 
-                  <li role="tab" className="cursor-pointer text-xl" aria-selected="true">
-                    <a onClick={navigateToContact}>Contact</a>
-                  </li>
-                </menu>
-              <div className='fixed top-0 right-3 window '>
-                  <img src={a} className='w-10'/>
-              </div>
-            </div>
-            <div className="window  flex top-10 mb-10" role="tabpanel">
-              <div className="window w-full">
+                      <li role="tab" className="cursor-pointer text-xl" aria-selected="true">
+                        <a onClick={navigateToContact}>Contact</a>
+                      </li>
+                    </menu>
+                  <div className='fixed top-0 right-3 window '>
+                      <img src={a} className='w-10'/>
+                  </div>
+                </div>
+            <div className="relative top-10 mb-12">
+              <div className="window h-auto">
                 <div className="window">
                   <div className="title-bar">
                     <div className="title-bar-text text-xl" >
@@ -279,7 +275,7 @@ const App = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex pb-5 pt-5">
+                <div className="flex justify-center pb-5 pt-5">
 
                   <div className="window w-full mr-52 ml-52">
                     <div className="items-center text-center">
@@ -288,7 +284,7 @@ const App = () => {
                           <div className="title-bar-text text-sm"><b >Socials</b></div>
                         </div>
                         <div className="window-body text-lg">
-                          <div className='inline-block mt-10 mb-10'>
+                          <div className='inline mt-10 mb-10'>
                             <button className='flex w-full justify-center items-center mt-2 mb-2 h-16' onClick={() => window.open('https://www.linkedin.com/in/ebrahim-khosravani-6a5bbb177', '_blank')}><img className='ml-4 mr-2 mb-3 mt-2 w-8 ' src={linkedin}></img>Linkedin</button>                            
                             <button className='flex w-full justify-center mt-2 items-center h-16' onClick={() => window.open('https://github.com/84Ebi', '_blank')}><img className='w-10 mb-3 mt-2' src={github}></img>Github</button>
                             <button className='flex w-full justify-center mt-2 items-center h-16 text-xl ' onClick={() => window.open('mailto:ebrahimkhosravani3@gmail.com', '_blank')}><img className='w-10 mb-3 mt-2 ml-3' src={mail}></img><p className=' mr-3'>ebrahimkhosravani3@gmail.com</p></button>
@@ -311,16 +307,16 @@ const App = () => {
 
               
             </div>
-            <div id='info' className='flex right-0 mt-1 w-full relative'>
-                        <div className="title-bar justify-around text-sm w-full">
-                          <div className='w-full justify-center mt-6 mb-6 flex'>
+            <div id='info' className='flex mt-1 w-full relative'>
+                        <div className="title-bar text-sm w-full">
+                          <div className='w-full justify-around mt-6 mb-6 inline-flex'>
 
                             <div className='title-bar-text text-center'>
                                   Ebrahim Khosravani
-                                  <br></br>
+                                  
                             </div>
 
-                            <div className="title-bar-text  text-center ">
+                            <div className="title-bar-text  text-center -indent-4">
                                   Email<br></br> 
                               <address >
                                     <a href='mailto:ebrahimkhosravani3@gmail.com'>
@@ -329,10 +325,6 @@ const App = () => {
                               </address>
                             </div>
 
-                            <div className='title-bar-text justify-center'>
-                              <p>location <br/>
-                              Tehran, Iran </p>
-                            </div>
 
                           </div>
                         </div>
