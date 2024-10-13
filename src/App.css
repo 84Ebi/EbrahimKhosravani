@@ -7,3 +7,6 @@
     display: none;
     
 }
+.screen {
+    max-width: 100%;
+}
