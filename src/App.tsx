@@ -277,9 +277,9 @@ const App = () => {
                 </div>
                 <div className="flex justify-center pb-5 pt-5">
 
-                  <div className="window w-full mr-52 ml-52">
-                    <div className="items-center text-center">
-                      <div className="window items-center">
+                  <div className="window w-full ">
+                    <div className="items-center w-full text-center">
+                      <div className="window items-center w-full">
                         <div className="title-bar">
                           <div className="title-bar-text text-sm"><b >Socials</b></div>
                         </div>
@@ -287,7 +287,7 @@ const App = () => {
                           <div className='inline mt-10 mb-10'>
                             <button className='flex w-full justify-center items-center mt-2 mb-2 h-16' onClick={() => window.open('https://www.linkedin.com/in/ebrahim-khosravani-6a5bbb177', '_blank')}><img className='ml-4 mr-2 mb-3 mt-2 w-8 ' src={linkedin}></img>Linkedin</button>                            
                             <button className='flex w-full justify-center mt-2 items-center h-16' onClick={() => window.open('https://github.com/84Ebi', '_blank')}><img className='w-10 mb-3 mt-2' src={github}></img>Github</button>
-                            <button className='flex w-full justify-center mt-2 items-center h-16 text-xl ' onClick={() => window.open('mailto:ebrahimkhosravani3@gmail.com', '_blank')}><img className='w-10 mb-3 mt-2 ml-3' src={mail}></img><p className=' mr-3'>ebrahimkhosravani3@gmail.com</p></button>
+                            <button className='flex w-full justify-center mt-2  items-center h-16  ' onClick={() => window.open('mailto:ebrahimkhosravani3@gmail.com', '_blank')}><img className='w-10 mb-3 mt-2 ml-3' src={mail}></img><p className=' mr-3'>ebrahimkhosravani3@gmail.com</p></button>
                             <button className='flex w-full justify-center mt-2 mb-1 items-center h-16' onClick={() => window.open('https://t.me/ebisssss', '_blank')}><img className='w-10 mb-3 mt-2' src={telegram}></img>Telegram</button>
 
 
