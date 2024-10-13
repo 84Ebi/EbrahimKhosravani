@@ -253,7 +253,7 @@ const App = () => {
 
 
           {currentPage === "Contact" && (
-          <div className='inline-block w-full'>
+          <div className='inline-block '>
             <div className="window-body">
 
             <div className='fixed align bg-white'>
