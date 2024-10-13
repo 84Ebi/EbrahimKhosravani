@@ -5,7 +5,7 @@ import b from "./b.svg";
 import github from "./github.svg";
 import mail from "./mail.svg";
 import linkedin from "./linkedin.svg";
-import resume from "./resume.pdf";
+import resume1 from "./resume1.pdf";
 import telegram from "./telegram.svg";
 import windows from "./windows.gif";
 import windows1 from "./windows1.gif";
@@ -18,7 +18,7 @@ export {
     github,
     mail,
     linkedin,
-    resume,
+    resume1,
     telegram,
     windows,
     windows1,

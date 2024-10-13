@@ -8,7 +8,7 @@ import {
   github,
   mail,
   linkedin,
-  resume,
+  resume1,
   telegram,
   windows1,
 } from "./images";
@@ -204,7 +204,7 @@ const App = () => {
                             </div>
                             <div className='justify-center inline-block' id="dresume">
                               <button  className='w-64 h-12 ml-6' >
-                                <a href={resume}  download>Download Resume </a>
+                                <a href={resume1}  download>Download Resume </a>
                               </button>
                               <div className='window w-64 mt-10 ml-6'>
                                 <img src={b}></img>
