@@ -67,30 +67,7 @@ const App = () => {
                       <img src={a} className='w-10'/>
                   </div>
                 </div>
-                <div className='right-2 z-50 mt-10 fixed'>
-                    <ul className="tree-view ">
-                      <li><a href="#aboutme">About Me</a></li>
-                      <li><a href="#dresume">My resume</a></li>
-                      <li>
-                        <details>
-                          <summary><a href="#skills">Skills</a></summary>
-                          <ul>
-                            <li><a href='#English'>English</a></li>
-                            <li><a href='#React'>React</a></li>
-                            <li><a href='#Html & CSS'>Html & CSS</a></li>
-                            <li><a href='#Java Script'>Java Script</a></li>
-                            <li><a href='#Type Script'>Type Script</a></li>
-                            <li><a href='#Python'>Python</a></li>
-                            <li><a href='#Docker'>Docker</a></li>
-                            <li><a href='#Django'>Django</a></li>
-                            <li><a href='#Node.js'>Node.js</a></li>
-                          </ul>
-                        </details>
-                      </li>
-                      <li><a href='#info'>Contact Info</a></li>
-                      
-                    </ul>
-                  </div>
+                
                 <div className=" relative top-10 mb-12 ">
                   <div className="window h-auto">
                     <div className="window">
